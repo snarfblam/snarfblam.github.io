@@ -99,6 +99,22 @@
         text-decoration: none;
         font-size: 1.2em;
     }
+	
+		
+	nav.mainnav a:link {
+	}
+	
+	nav.mainnav a:visited { color: #BBB;
+	}
+	
+	nav.mainnav a:hover { 
+		text-decoration: underline 
+	}
+	
+	nav.mainnav a:active {
+		color: orange;
+	}
+    
     
     
 /* Article + Aside Styles */
@@ -136,7 +152,7 @@
     aside a {
         text-decoration: none;
     }
-    
+
     aside h2 {
         overflow: hidden;
         white-space: nowrap;
